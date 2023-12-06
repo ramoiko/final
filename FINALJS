@@ -1,0 +1,94 @@
+ /*
+
+    Programar una landing que presente el juego del proyecto final.
+
+    La landing además de información del juego tiene que tener:
+    Un formulario de contacto (con al menos 6 tipos distintos de campos: text, select, number, checkbox, etc).
+    Una tabla de ranking con los usuarios más ganadores (data ficticia)
+
+    */
+
+
+
+    // Obtener referencia a los botones de niveles
+    const botonesNiveles = document.querySelectorAll('.boton-nivel');
+
+    // Asignar evento click a cada botón de nivel
+    botonesNiveles.forEach(boton => {
+    boton.addEventListener('click', mostrarTiempo); // Agrega un evento de clic a cada botón de nivel que llama a la función mostrarTiempo
+    });
+
+    // Función para mostrar el tiempo correspondiente al nivel
+    function mostrarTiempo(event) {
+    var boton = event.currentTarget; // Obtén el botón actual que ha desencadenado el evento de clic
+    var tiempoNivel = document.getElementById('tiempo-nivel'); // Obtén el elemento donde se mostrará el tiempo
+
+    // Determina qué mensaje mostrar basado en el ID del botón clicado
+    switch (boton.id) {
+    
+        case 'principiante':
+    
+            tiempoNivel.innerText = '5 minutos'; // Si se hace clic en el botón 'principiante', muestra '5 minutos'. inner reemplaza la sintaxis del elemento por la nueva
+    
+        break;
+    
+        case 'medio':
+    
+            tiempoNivel.innerText = '3 minutos'; // Si se hace clic en el botón 'medio', muestra '3 minutos'
+    
+        break;
+    
+        case 'experto':
+    
+            tiempoNivel.innerText = '2 minutos'; // Si se hace clic en el botón 'experto', muestra '2 minutos'
+    
+        break;
+    
+        default:
+    
+            tiempoNivel.innerText = 'Presiona para ver el tiempo'; // Si se hace clic en otro lugar, muestra el mensaje predeterminado
+    
+        break;
+    
+    }
+
+
+    // Alternar clase activa para mostrar u ocultar el tiempo
+    if (boton.classList.contains('activo')) {
+
+        tiempoNivel.innerText = 'Presiona para ver el tiempo'; // Si el botón ya tiene la clase 'activo', muestra el mensaje predeterminado
+
+        boton.classList.remove('activo'); // Si el botón ya tiene la clase 'activo', quita la clase 'activo'
+
+    } else {
+
+        botonesNiveles.forEach(b => b.classList.remove('activo')); // Si no, quita la clase 'activo' de todos los botones
+
+        boton.classList.add('activo'); // Agrega la clase 'activo' al botón actual
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Obtener referencia al formulario y al mensaje
+var formulario = document.getElementById('miFormulario');
+var mensajeEnviado = document.getElementById('mensaje-enviado');
+var botonenviar = document.getElementById('Enviar');
+
+// Agregar un evento submit al formulario solo cuando se presione el botón "Enviar"
+document.getElementById('Enviar').onclick = function() {
+    formulario.style.display = "none";
+    mensajeEnviado.style.display = 'block';
+};
+
