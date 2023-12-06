@@ -1,0 +1,425 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: #000000;
+}
+
+.navbar {
+    background-color: #000; /* Color de fondo del navbar, en este caso, negro (#000) */
+    color: #fff; /* Color del texto dentro del navbar, en este caso, blanco (#fff) */
+    padding: 15px 0; /* Espaciado interno superior e inferior del navbar de 15 píxeles y 0 a la izquierda y derecha */
+    display: flex; /* Establece el modelo de caja de flex para el navbar */
+    justify-content: center; /* Centra horizontalmente el contenido del navbar */
+    align-items: center; /* Centra verticalmente el contenido del navbar */
+  }
+  
+  .logo {
+    font-size: 24px; /* Tamaño de fuente del texto del logo en 24 píxeles */
+    text-decoration: none; /* Elimina el subrayado del texto del logo (si lo hubiera) */
+    color: #fff; /* Color del texto del logo, en este caso, blanco (#fff) */
+    display: flex; /* Establece el modelo de caja de flex para el elemento .logo */
+    align-items: center; /* Centra verticalmente el contenido del elemento .logo */
+  }
+  
+  .logo img {
+    width: 40px; /* Ancho de la imagen del logo en 40 píxeles */
+    margin-right: 10px; /* Margen derecho de la imagen del logo de 10 píxeles */
+  }
+
+
+.banner {
+    background-image: url('multimedia/banner.png'); /* Ruta de la imagen de fondo del banner */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    text-align: center;
+    padding: 300px 0;
+    color: #fff; /* Color del texto para que sea visible en la imagen de fondo */
+    position: relative; /* Añade posición relativa al banner */
+    z-index: 1; /* Asegura que el banner esté en un nivel superior */
+  }
+  
+  .banner .container {
+    max-width: 800px; /* Ancho máximo del contenido dentro del banner */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
+  .banner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+  }
+
+.titulo {
+  text-align: left;
+  text-decoration: underline;
+}
+  
+/* Estilos para la sección de descripción */
+
+.descripcion {
+    padding: 110px 0;
+    color: #000; /* Cambia el color del texto según sea necesario */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .descripcion-content {
+    display: flex;
+    flex-direction: row; /* Alineación horizontal */
+  }
+  
+  .imagen {
+    flex: 0 0 45%; /* Ancho de la imagen */
+    margin-right: -80px; /* Espacio entre imagen y texto */
+  }
+  
+  .imagen img {
+    width: 50%; /* La imagen ocupa el 100% del contenedor */
+    height: auto;
+  }
+
+  .texto {
+    flex: 1; /* El texto ocupa el espacio restante */
+  }
+  
+  .texto h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-right: 0; /* Elimina el margen derecho del párrafo */
+  }
+
+/* Estilos para la sección de instrucciones */
+#instruccionesseccion {
+    padding: 70px 0;
+    color: #000; /* Cambia el color del texto según sea necesario */
+    max-width: 100%;
+    
+    margin: 0 auto;
+    background-color: #7d0000;
+  }
+  
+  #instruccionesseccion .instrucciones-content {
+    display: flex;
+    flex-direction: row-reverse; /* Invierte la alineación horizontal */
+  }
+  
+  #imginstrucciones {
+    flex: 0 0 45%; /* Ancho de la imagen */
+    margin-left: 20px; /* Espacio entre imagen y texto */
+  }
+  
+  #imginstrucciones img {
+    width: 45%; /* La imagen ocupa el 70% del contenedor */
+    height: auto;
+  }
+  
+  #instruccionestexto {
+    flex: 1; /* El texto ocupa el espacio restante */
+    margin-right: 20px; /* Espaciado entre texto y borde derecho */
+  }
+  
+  #instruccionestexto h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 70px;
+    margin-left: 350px; /* Elimina el margen derecho del párrafo */
+
+  }
+  
+  #instruccionestexto p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0px;
+    max-width: 470px; /* Modifica este valor para cambiar el ancho máximo del texto */
+    margin-left: 350px; /* Elimina el margen derecho del párrafo */
+  }
+
+  /* Estilos para la sección de niveles */
+
+  .titulo2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .niveles-section {
+
+    padding: 100px 0;
+    color: #000; /* Cambia el color del texto según sea necesario */
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000000; /* Color de fondo para la sección */
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para los botones */
+  .botones-niveles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .boton-nivel {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease; /* Transición al pasar el cursor */
+  }
+  
+
+#principiante {
+    background-color: #ffe100; /* Color amarillo */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+    border: 3px;
+    border-color: #000000;
+}
+
+#principiante:hover {
+    background-color: #d6b937; /* Color de fondo del botón al pasar el mouse */
+}
+
+#principiante:active {
+    background-color: #b3a12d; /* Color de fondo del botón al hacer clic */
+}
+
+#medio {
+    background-color: #e7863c; /* Color marroncito */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+#medio:hover {
+    background-color: #d06908; /* Color de fondo del botón al pasar el mouse */
+}
+
+#medio:active {
+    background-color: #ff7b00; /* Color de fondo del botón al hacer clic */
+}
+
+#experto {
+    background-color: #ff1900; /* Color rojo */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+#experto:hover {
+    background-color: #c51400; /* Color de fondo del botón al pasar el mouse */
+}
+
+#experto:active {
+    background-color: #7b0c00; /* Color de fondo del botón al hacer clic */
+}
+  
+  /* Estilos para el área del tiempo */
+  .tiempo {
+    margin-top: 20px;
+  }
+  
+  #tiempo-nivel {
+    font-size: 16px;
+    font-weight: regular;
+  }  
+
+
+
+/* Estilos para la tabla de ranking */
+section table {
+    width: 70%; /* Ancho de la tabla */
+    margin: 20px auto; /* Márgenes superior e inferior de 20px y centrar horizontalmente */
+    border-collapse: collapse;
+    border: 1px solid #7d0000;
+    border-radius: 5px;
+  }
+  
+  section caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el texto */
+    background-color: #7d0000;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  section th, section td {
+    border: 1px solid #7d0000;
+    padding: 8px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  section th {
+    background-color: #7d0000;
+    font-weight: bold;
+  }
+
+
+  /* Estilos para la tabla de ranking */
+section table {
+    width: 70%; /* Ancho de la tabla */
+    margin: 20px auto; /* Márgenes superior e inferior de 20px y centrar horizontalmente */
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    border-radius: 8px;
+  }
+  
+  section caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el texto */
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  section th, section td {
+    border: 5px solid #000000;
+    padding: 8px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  section th {
+    background-color: #000000;
+    font-weight: bold;
+  }
+  
+  #ganadores{
+    text-align: center;
+  }
+
+  #seccionganadores{
+    background-color: #7d0000;
+    padding: 50px;
+  }
+  
+
+
+/* Estilos para el formulario de contacto */
+
+#titulo-form {
+  margin-bottom: 10px;
+}
+
+#formulario{
+    padding: 100px;
+}
+
+
+section {
+  margin-top: 20px; /* Agrega un espacio en la parte superior del formulario */
+}
+
+form {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario horizontalmente en la página */
+  padding: 15px; /* Añade un poco de relleno alrededor del formulario */
+  border: 1px solid #7d0000; /* Establece un borde alrededor del formulario */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  background-color: #7d0000; /* Color de fondo del formulario */
+}
+
+h2 {
+  text-align: center; /* Centra el texto del título del formulario */
+  margin-top: 0; /* Elimina el margen superior del título */
+}
+
+label {
+  display: block; /* Hace que las etiquetas sean elementos de bloque para que cada una esté en una línea */
+  margin-bottom: 5px; /* Agrega espacio después de cada etiqueta */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  width: calc(100% - 12px); /* Ancho del campo, ajustado para el borde */
+  padding: 8px; /* Agrega relleno dentro de los campos */
+  margin-bottom: 10px; /* Espacio inferior entre campos */
+  border: 1px solid #7d0000; /* Establece un borde alrededor de los campos */
+  border-radius: 3px; /* Agrega bordes redondeados a los campos */
+  color: #333; /* Cambia el color del texto a negro */
+}
+
+input[type="checkbox"] {
+  margin-bottom: 10px; /* Espacio inferior entre los campos de checkbox */
+}
+
+select {
+    /* Otros estilos para el <select> */
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    background-color: #f9f9f9; /* Color de fondo del <select> */
+  }
+  
+  /* Estilos para la opción seleccionada en los elementos <select> */
+  select option {
+    color: #333; /* Cambia el color del texto de las opciones */
+    background-color: #f9f9f9; /* Color de fondo de las opciones */
+  }
+
+
+  #botones-niveles {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  #enviar {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #enviar:hover {
+    background-color: #066127; /* Cambia el color de fondo al pasar el cursor */
+  }
+
+
+  /* Estilos para el footer */
+footer {
+    background: linear-gradient(black, #7d0000);
+    color: #fff; /* Color del texto en el footer */
+    text-align: center; /* Centra el texto */
+    padding: 100px; /* Espaciado interno */
+  }
+  
+  .footer-content {
+    max-width: 600px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
