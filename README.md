@@ -8,5 +8,7 @@ Tema Desarrollo de un videojuego Estudiantes Ramona Ikonicoff Docente Belén Ló
     La landing además de información del juego tiene que tener:
     Un formulario de contacto (con al menos 6 tipos distintos de campos: text, select, number, checkbox, etc).
     Una tabla de ranking con los usuarios más ganadores (data ficticia)
+
 https://www.figma.com/file/o9V5c19UsPgk7wqL3QNdt0/final-programacion-multimedial-1?type=design&node-id=137%3A2&mode=design&t=LMB8Il9O4UYEApjF-1
+
 https://drive.google.com/drive/folders/1QrV1cNLCN4y_sw7QCvThExJIJ6wbQ-KE
