@@ -37,7 +37,12 @@
             <div class="texto">
               <h2 class="titulo">Descripción</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Convallis ac vel vitae convallis mauris neque. Fusce tellus tincidunt vel felis mauris. Praesent ac sed quis sagittis varius aliquam viverra ac. Dui pretium nulla suscipit viverra morbi. Fermentum sed suspendisse ultricies aenean molestie aenean in ultrices. Ut adipiscing habitasse tincidunt nullam tempus sem egestas gravida.Lorem ipsum dolor sit amet consectetur. Convallis ac vel vitae convallis mauris neque. Fusce tellus tincidunt vel felis mauris. Praesent ac sed quis sagittis varius aliquam viverra ac. Dui pretium nulla suscipit.
+          Memoland es un emocionante juego de memoria diseñado con CSS, JS y HTML que cuenta con tres niveles y utiliza las parejas más icónicas del mundo. Este juego desafía tu capacidad de recordar y emparejar imágenes en el menor tiempo posible.
+                Cada nivel de Memoland presenta un conjunto de tarjetas boca abajo, y tu objetivo es encontrar todas las parejas coincidentes haciendo clic en dos tarjetas para encontrar el par.
+                El diseño visual de Memoland es atractivo y llamativo gracias al uso de CSS. Las tarjetas están bellamente diseñadas con imágenes icónicas del mundo, lo que añade un toque diversión al juego.
+                La funcionalidad del juego está respaldada por JS, que incorpora la lógica del juego y gestiona el temporizador, puntajes y efectos visuales. 
+                En resumen, Memoland es un memotest interactivo que combina un elegante diseño con las parejas más icónicas del mundo. ¿Estás listo para poner a prueba tu memoria y disfrutar de una experiencia de juego divertida? ¡Empieza a jugar a Memoland ahora mismo!
+                
               </p>
             </div>
           </div>
