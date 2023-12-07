@@ -1,6 +1,9 @@
-Ramona Ikonicoff exámen final Programación multimedial
+Ramona Ikonicoff, Agustina Ferraro, Santiago Caceres, Brisa Rodriguez exámen final Programación multimedial
 
-Tema Desarrollo de un videojuego Estudiantes Ramona Ikonicoff Docente Belén López del Monte Apertura del Trabajo Jueves, 17 de Octubre de 2023, 09:00 Cierre del Trabajo Jueves, 7 de Diciembre de 2023, 09:00 Año 2023
+Tema Desarrollo de un videojuego
+Docente Belén López del Monte 
+Apertura del Trabajo Jueves, 17 de Octubre de 2023, 09:00 
+Cierre del Trabajo Jueves, 7 de Diciembre de 2023, 09:00 Año 2023
 
  CONSIGNA
  Programar una landing que presente el juego del proyecto final.
