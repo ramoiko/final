@@ -61,8 +61,12 @@
             <div class="texto" id="instruccionestexto">
               <h2 class="titulo">Instrucciones</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Convallis ac vel vitae convallis mauris neque. Fusce tellus tincidunt vel felis mauris. Praesent ac sed quis sagittis varius aliquam viverra ac. Dui pretium nulla suscipit viverra morbi. Fermentum sed suspendisse ultricies aenean molestie aenean in ultrices. Ut adipiscing habitasse tincidunt nullam tempus sem egestas gravida.
-              </p>
+Encuentra los pares de cartas iguales antes de que se agote el tiempo. Haz clic en dos cartas para darles la vuelta y descubrir sus imágenes.
+
+Si las imágenes coinciden, ¡has encontrado un par! 
+
+Si no, intenta recordar la ubicación de las cartas para futuros intentos. ¡Diviértete desafiando tu memoria y alcanzando la puntuación más alta!
+</p>
             </div>
           </div>
         </section>
